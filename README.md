@@ -45,7 +45,7 @@ Back-End:
     Access the application via http://localhost/jupitor-films.
 
 ## Screen Video
-
+https://github.com/user-attachments/assets/b10a15be-7e3c-4f33-b5f1-c4b8a9c30a90
 
 
 ## License
