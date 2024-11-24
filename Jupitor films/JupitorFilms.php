@@ -1,0 +1,130 @@
+
+<html>
+    <head>
+        <title>Tickets Booking</title>
+        <link  rel="stylesheet" href="JupitorFilmCSS.php">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+
+<body>
+    
+   <div class="main-content">
+
+   <div class="toolbar">
+                <table class="table1">
+                   <div class="div1">
+                     <tr>
+                        
+                            <th><a href="JupitorFilmMain.php">HOME</a></th>
+                            <th><a href="JupitorFilms.php">BUY TICKETS</a></th>
+                            <th><a href="contact.php">CONTACT</a></th>
+                            <th><a href="about.php">ABOUT</a></th>
+                      
+                     </tr>
+                  </div>
+                </table>
+                <div class="p1">
+         <h1>Jupitor Films</h1> 
+        </div>
+    
+                <img src="images/filmCollage.jpg" alt="background">
+                <hr>
+            </div>
+
+     <table class="table2">
+        <tr>
+            <td>
+            <form action="dataInsert.php" method="POST">
+            <div class="frame">
+            <h2>Online Tickets Booking</h2>
+            <table>
+                
+                <tr>
+                    <td> Film Name :</td>
+                    <td>
+                        <select name="Film_Name"  >
+                        
+                        <option value="Fast & Furious">Fast & Furious 7</option>
+                        <option value="KGF Chapter 1">KGF Chapter 1 </option>
+                        <option value="Kung Fu Panda">Kung Fu Panda</option>
+                        <option value="Pravegaya">Pravegaya</option>
+
+                        </select>
+                     </td>
+
+                </tr>
+                <tr>
+                    <td>Date :</td>
+                    <td><input type="date" min="2022-12-04" max="2022-12-31" name="Date"></td>
+                </tr>
+                <tr>
+                    <td>Show time :</td> 
+                    <td>
+                        <select name="Time" id="" >
+                            <option value="10.30">10.30 am</option>
+                            <option value="02.30">02.30 pm</option>
+                            <option value="04.30">04.30 pm</option>
+                            <option value="06.30">06.30 pm</option>
+                         </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Tickets type :</td>
+                    <td><p>Box: <input type="text" size="2" placeholder="Qty" name="Box_Qty"> ODC: <input type="text" size="2" placeholder="Qty" name="ODC_Qty"></p></td>
+                </tr>
+                <tr>
+                    <td>Customer Name :</td>
+                    <td><input type="text" name="Cus_Name" placeholder="A.B.C Perera"></td>
+                    
+                </tr>
+                <tr>
+                    <td>Customer Contact No :</td>
+                    <td><input type="text" name="Contact_No" placeholder="077-2223334" ></td>
+                </tr>
+                <tr>
+                    <td>Customer Email :</td>
+                    <td><input type="text" placeholder="abc@gmail.com" name="Email"></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                <div class="btn">
+              
+                   <td> <input type="submit" name="submit_btn" value="Buy Tickets" id="btn1"></td>
+                    <td><input type="reset" name="clear_btn" value="Reset" id="btn2"></td>
+            
+               </div>
+               
+                    
+                </tr>
+
+                
+            </table>
+            
+            </div>
+        </form>
+            </td>
+
+            <td>
+
+            <div class="background">
+                
+            </div>
+
+            </td>
+        </tr>
+     </table>
+   
+        
+        
+     </div>
+
+
+     
+</body>
+
+</html>
