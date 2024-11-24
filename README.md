@@ -34,14 +34,17 @@ Jupitor Films is a web application designed for managing online ticket bookings 
 
 ## Technologies Used
 Front-End:
-        HTML: Structuring the web pages.
-        CSS: Styling the application with a sleek black-and-yellow theme.
+
+   HTML: Structuring the web pages.
+   CSS: Styling the application with a sleek black-and-yellow theme.
 
 Back-End:
-        PHP: Handling server-side processing and integration of dynamic content.
+
+   PHP: Handling server-side processing and integration of dynamic content.
     
 Database:
-        MySQL: For storing and managing data efficiently.
+
+   MySQL: For storing and managing data efficiently.
 
 ## Setup Instructions
 
