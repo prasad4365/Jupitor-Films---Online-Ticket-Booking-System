@@ -23,8 +23,16 @@ Jupitor Films is a web application designed for managing online ticket bookings 
 4. Dynamic Content
 
     Movies, showtimes, and ticket details are dynamically managed via PHP.
+   
+6. MySQL Database Integration
 
-Technologies Used
+    Stores all essential data such as:
+        Movie details.
+        Show timings and dates.
+        Customer information.
+        Ticket bookings and types.
+
+## Technologies Used
 Front-End:
 
     HTML: Structuring the web pages.
@@ -33,6 +41,10 @@ Front-End:
 Back-End:
 
     PHP: Handling server-side processing and integration of dynamic content.
+    
+Database:
+
+    MySQL: For storing and managing data efficiently.
 
 ## Setup Instructions
 
